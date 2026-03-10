@@ -21,11 +21,21 @@
         }
 
         article {
-            background-color: aqua;
+            background-color: rgb(5, 133, 138);
         }
 
         header {
             background-color: rgb(0, 148, 148);
+        }
+
+        #firstArticle {
+            background-color: rgb(10, 156, 156);
+            padding: 10px;
+        }
+
+        .empWord {
+            color: aquamarine;
+            font-weight: bold;
         }
     </style>
 </head>
@@ -38,21 +48,25 @@
         <a href="game/index.html">Game</a>
     </nav>
 
-    <article>
-        <header>
-            <h2>Welcome to my website!</h2>
-            <p>I am a person. I live in a house. I have legs, and arms.</p>
-            <p>Here is some additional information.</p>
+    <div id="firstArticle">
+        <article>
+            <header>
+                <h2>Welcome to my website!</h2>
+                <p>I am a person. I live in a house. I have legs, and arms.</p>
+                <p>Here is some additional information.</p>
 
-            <ul>
-                <li>The <em>"home"</em> link sends you to the page you're seeing now, silly!</li>
+                <ul>
+                    <li>The <em>"home"</em> link sends you to the page you're seeing now, silly!</li>
 
-                <li>The <em>"about"</em> link sends you to what this page is about (<em>Still</em> working on it...)</li>
+                    <li>The <em>"about"</em> link sends you to what this page is about (<em>Still</em> working on it...)
+                    </li>
 
-                <li>The <em>"game"</em> link sends you to my game!</li>
-            </ul>
-        </header>
-    </article>
+                    <li>The <em>"game"</em> link sends you to my game!</li>
+                </ul>
+            </header>
+            <p>My <span class="empWord">legs</span> and <span class="empWord">arms</span> are important to me</p>
+        </article>
+    </div>
 </body>
 
 </html>
