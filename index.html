@@ -7,65 +7,100 @@
     <title>My Website</title>
     <style>
         body {
-            background-color: lightseagreen;
+            background-color: rgb(141, 211, 193);
             color: rgb(204, 252, 252);
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         }
 
         nav {
-            background-color: darkcyan;
+            background-color: rgb(11, 136, 185);
         }
 
         a {
-            color: aquamarine;
-        }
-
-        article {
-            background-color: rgb(5, 133, 138);
-        }
-
-        header {
-            background-color: rgb(0, 148, 148);
+            color: rgb(172, 249, 255);
         }
 
         #firstArticle {
-            background-color: rgb(10, 156, 156);
+            background-color: rgb(82, 149, 211);
             padding: 10px;
         }
 
         .empWord {
-            color: aquamarine;
+            color: rgb(96, 232, 250);
+            font-weight: bold;
+        }
+
+        div {
+            margin: 5px;
+            border: 2px rgb(0, 9, 36) solid;
+            padding: 10px;
+        }
+
+        .header1 {
+            background-color: rgb(121, 197, 207);
+        }
+
+        .header2 {
+            background-color: #4b68eb;
+        }
+
+        .descrip {
+            background-color: #1c26b6;
+        }
+
+        .list {
+            background-color: #0f2057;
+        }
+
+        .legs {
+            background-color: #030b36;
+        }
+
+        .navbar {
+            background-color: rgb(104, 181, 211);
+        }
+
+        .Bluudud {
+            color: #00b7ff;
             font-weight: bold;
         }
     </style>
 </head>
 
 <body>
-    <h1>My Website</h1>
-    <nav>
-        <a href="index.html">Home</a> |
-        <a href="about.html">About</a> |
-        <a href="game/index.html">Game</a>
-    </nav>
+    <div class="header1">
+        <h1>My Website</h1>
+    </div>
+    <div class="navbar">
+        <p>
+            <a href="about.html">About</a> |
+            <a href="game/index.html">Game</a>
+        </p>
+    </div>
 
     <div id="firstArticle">
-        <article>
-            <header>
-                <h2>Welcome to my website!</h2>
-                <p>I am a person. I live in a house. I have legs, and arms.</p>
-                <p>Here is some additional information.</p>
+        <div class="header2">
+            <h2><img src="66b3ea5489be478613512121_43.png" alt="" height="70px">Welcome to my website!</h2>
+        </div>
+        <div class="descrip">
+            <p>I am a person. I live in a house. I have legs, and arms.</p>
+            <p>Here is some additional information below...</p>
+        </div>
+        <div class="list">
+            <p>
+            <p>The <em>"about"</em> link sends you to what this page is about (<em>Still</em> working on it...)
+            </p>
 
-                <ul>
-                    <li>The <em>"home"</em> link sends you to the page you're seeing now, silly!</li>
-
-                    <li>The <em>"about"</em> link sends you to what this page is about (<em>Still</em> working on it...)
-                    </li>
-
-                    <li>The <em>"game"</em> link sends you to my game!</li>
-                </ul>
-            </header>
-            <p>My <span class="empWord">legs</span> and <span class="empWord">arms</span> are important to me</p>
-        </article>
+            <p>The <em>"game"</em> link sends you to my game!</p>
+            <p>The <em>"javascript"</em> link is coming soon, sorry!</p>
+            </p>
+        </div>
+        <div class="legs">
+            <p>My <span class="empWord">legs</span> and <span class="empWord">arms</span> are important to me, so<em>
+                    you</em>
+                can't have them. Take this <span class="Bluudud">Bluudud</span> instead.</p>
+            <img src="BluududScribble.jpg" alt="" height="200px">
+        </div>
     </div>
 </body>
 
